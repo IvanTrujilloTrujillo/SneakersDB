@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #fafafa;
+}
+
+.first-line, .second-line, .third-line, .fourth-line, .button-line {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 600px;
+  color: #fafafa;
+}
+
+.third-line {
+  position: relative;
+}
+
+.third-line .mat-error {
+  font-size: 11px;
+  position: absolute;
+  bottom: -15px;
+  left: 210px;
+}
+
+.button-line {
+  margin-top: 30px;
+}
+
+.button-line button {
+  height: 50px;
+  width: 130px;
+}
+
+.fourth-line {
+  margin-top: 20px;
+}
+
+.name, .price, .author {
+  margin: 20px;
+}
+
+.special-edition {
+  margin: 30px 55px;
+}

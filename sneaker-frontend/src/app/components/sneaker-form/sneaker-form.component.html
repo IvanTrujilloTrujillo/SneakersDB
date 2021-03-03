@@ -1,0 +1,70 @@
+<h1>New Sneaker</h1>
+
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+
+  <div class="first-line">
+    <mat-form-field class="name">
+      <mat-label>Name</mat-label>
+      <input type="name" matInput formControlName="name" placeholder="Name">
+      <mat-error *ngIf="nameField.hasError('required') && nameField.touched">
+        Please enter a name
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="price">
+      <mat-label>Price</mat-label>
+      <input matInput formControlName="price" type="name">
+      <span matPrefix>€&nbsp;</span>
+      <mat-error *ngIf="priceField.hasError('required') && priceField.touched">
+        Please enter a price
+      </mat-error>
+      <mat-error *ngIf="priceField.hasError('invalidprice') && priceField.touched">
+        Please enter a valid price
+      </mat-error>
+    </mat-form-field>
+  </div>
+
+  <div class="second-line">
+    <mat-form-field class="author">
+      <mat-label>Author</mat-label>
+      <input type="author" matInput formControlName="author" placeholder="Author">
+      <mat-error *ngIf="authorField.hasError('required') && authorField.touched">
+        Please enter an Author
+      </mat-error>
+    </mat-form-field>
+
+    <div class="special-edition">
+      <mat-slide-toggle formControlName="specialEdition" color='primary'>Special Edition</mat-slide-toggle>
+    </div>
+  </div>
+
+  <div class="third-line">
+    <mat-form-field class="artistCollaborator">
+      <mat-label>Artist Collaborator</mat-label>
+      <input type="artistCollaborator" [required]="(specialEditionField.value && artistCollaboratorField.value === '' && artistCollaboratorField.touched)?'true':'false'" matInput formControlName="artistCollaborator" placeholder="Artist Collaborator">
+      <mat-error *ngIf="specialEditionField.value && artistCollaboratorField.value === '' && artistCollaboratorField.touched">
+        Please enter an Artist Colaborator
+      </mat-error>
+    </mat-form-field>
+    
+    <!-- <p class="mat-error" *ngIf="form.errors?.invalidArtistCollaborator && artistCollaboratorField.touched">
+      Please enter an Artist Collaborator
+    </p> -->
+  </div>
+
+  <!-- <div class="fourth-line">
+    <mat-form-field appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <input matInput formControlName="creationDate" [matDatepicker]="datePicker">
+      <mat-datepicker-toggle matSuffix [for]="datePicker"></mat-datepicker-toggle>
+      <mat-datepicker #datePicker></mat-datepicker>
+      <mat-error *ngIf="creationDateField.hasError('required') && creationDateField.touched">
+        Please enter a valid date
+      </mat-error>
+    </mat-form-field>
+  </div> -->
+
+  <div class="button-line">
+    <button mat-raised-button color="primary">Create</button>
+  </div>
+</form>
