@@ -24,12 +24,9 @@ SneakersDB is a platform where you can save the information of the sneakers you 
 
 ## Screenshots
 
-![Screenshot1](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot1.jpg)
-![Screenshot2](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot2.jpg)
-![Screenshot3](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot3.jpg)
-![Screenshot4](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot4.jpg)
-![Screenshot5](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot5.jpg)
-![Screenshot6](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot6.jpg)
+![Screenshot1](https://github.com/IvanTrujilloTrujillo/SneakersDB/blob/main/sneakers/src/main/resources/screenshots/Screenshot1.jpg)
+![Screenshot2](https://github.com/IvanTrujilloTrujillo/SneakersDB/blob/main/sneakers/src/main/resources/screenshots/Screenshot2.jpg)
+![Screenshot3](https://github.com/IvanTrujilloTrujillo/SneakersDB/blob/main/sneakers/src/main/resources/screenshots/Screenshot3.jpg)
 
 ## Author
 
