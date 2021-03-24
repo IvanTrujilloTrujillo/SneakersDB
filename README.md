@@ -10,31 +10,20 @@ SneakersDB is a platform where you can save the information of the sneakers you 
 
 3. Open and run 'sneakers' as a project on a IDE as IntelliJ.
 
-4. Run the client directory 'sneakers-frontend' as an Angular proyect (you'll need to run 'npm install' and then 'ng serve'.
+4. Run the client directory 'sneaker-frontend' as an Angular proyect (you'll need to run 'npm install' and then 'ng serve'.
 
 5. Open a browser and nagivate to 'localhost:4200'.
 
 ## Functionalities
 
-- Register and login
+- Create a new sneaker (with Reactive Form Validation)
 
-- Access Global group (public) or acces a private group
+- View the list of your sneakers
 
-- Create a private group
-
-- Join a private group with an invitation code
-
-- See Sites, Reviews and comments
-
-- See location of a site in Google Maps
-
-- Add a new review
-
-- Add a new site
+- Angular Material Design
 
 ## Screenshots
 
-![Screenshot0](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot0.jpg)
 ![Screenshot1](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot1.jpg)
 ![Screenshot2](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot2.jpg)
 ![Screenshot3](https://github.com/IvanTrujilloTrujillo/grouping/blob/main/edge-service/src/main/resources/screenshots/screenshot3.jpg)
